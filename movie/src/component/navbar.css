@@ -1,0 +1,29 @@
+.topnav {
+    background-color: rgb(206, 20, 51);
+    display: flex;
+    justify-content: space-around;
+    
+  flex-wrap: wrap; 
+
+
+    
+  }
+  
+  .topnav a {
+    color: #f2f2f2;
+    padding: 20px 100px;
+    text-decoration: none;
+    font-size: 20px;
+   
+
+  }
+  
+  .topnav a:hover {
+    background-color: #333333;
+    color: wheat;
+  }
+  
+  .topnav a.active {
+    background-color:rgb(206, 20, 51);
+    color: white;
+  }
