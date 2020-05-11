@@ -1,12 +1,12 @@
 body{
   background-image: url("https://www.siliconrepublic.com/wp-content/uploads/2020/03/netflix-718x523.png");
-  position: absolute;
+  
 }
 .App {
   
   height: auto;
   margin: 0 15%;
-  background-color:  #333;
+  background-color:  black;
   font-family: sans-serif;
 }
 .barDeRecherche{
@@ -64,6 +64,6 @@ h3{
   box-shadow: 0px 0px 100px 0px black;
   border: solid  black;
   border-radius: 20%;
-  background-color: black;
+  background-color: w;
 
 }

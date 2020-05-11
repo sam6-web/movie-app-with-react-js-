@@ -1,32 +1,57 @@
 import React, { Component } from 'react'
 
  class PosterFilm extends Component {
-     constructor(props){
-         super()
-     }
+
     render() {
+
+        const {films} = this .props
+        /* const {
+            img="",
+            title="",
+            etoile=""
+        }=films */
+        
+  
         return (
+            
             <div className="lesFilms">
-            {this.props.contenu.map(el=>
-                
-            <div className="posterFilm">
-                <div classname="filmPicture">
-                    <img className="image" alt="aze" src={el.img} ></img>
+            <div className="posterFilm ">
+                <div className="filmPicture">
+                    <img className="image" alt="aze" src={films.img} ></img>
                 </div>
                 <div className="titreDeFilm">
-                    <h3> {el.title} </h3>
+                    <h3> {films.title} </h3>
+                    
                 </div>
                 <div className="etoile">
-                    <span> {el.etoile} </span>
+                    <span> {films.etoile} </span>
                 </div>
             </div>
-                
-                )}
-            
-           
-        
+
         </div> 
         )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }
 
