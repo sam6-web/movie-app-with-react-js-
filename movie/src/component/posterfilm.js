@@ -1,57 +1,32 @@
 import React, { Component } from 'react'
-
  class PosterFilm extends Component {
 
     render() {
 
-        const {films} = this .props
-        /* const {
-            img="",
-            title="",
-            etoile=""
-        }=films */
+        const {az,add} = this .props
         
-  
         return (
-            
-            <div className="lesFilms">
+
+        
+        <div className="lesFilms">
+            {az.map((el)=>(
+           
             <div className="posterFilm ">
                 <div className="filmPicture">
-                    <img className="image" alt="aze" src={films.img} ></img>
+                    <img className="image" alt="aze" src={el.img} ></img>
                 </div>
                 <div className="titreDeFilm">
-                    <h3> {films.title} </h3>
-                    
+                    <h3 > {el.title} </h3> 
                 </div>
                 <div className="etoile">
-                    <span> {films.etoile} </span>
+                    <span> {el.etoile} </span>
                 </div>
+                
+                <button className="aj" onClick={(el)} >ajouter aux favorit</button>                
             </div>
-
+            ))} 
         </div> 
         )
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }
 

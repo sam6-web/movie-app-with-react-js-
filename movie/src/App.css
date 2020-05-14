@@ -5,7 +5,7 @@ body{
 .App {
   
   height: auto;
-  margin: 0 15%;
+  margin: 0 10%;
   background-color:  black;
   font-family: sans-serif;
 }
@@ -66,4 +66,19 @@ h3{
   border-radius: 20%;
   background-color: w;
 
+}
+.btnAjouter{
+  margin-top: 5cm;
+}
+.aj{
+  width: 4cm;
+  justify-content: center;
+  margin: 10%;
+  background-color: black;
+  color: white;
+  border-radius: 10%;
+}
+.rate{
+  justify-content: center;
+  border: solid white;
 }
