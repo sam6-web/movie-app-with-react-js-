@@ -111,7 +111,7 @@ hidingDescription = () => {
     this.setState({description: []})
 }
 
-  
+/* function search by name */
 filterFilm (){
   const fi = this.state.m
     return ((fi).filter(
@@ -119,12 +119,13 @@ filterFilm (){
       ))
 }
   
-  
+/* funchtion ajouter un film */
 ajouterFilm=(nouveuFilm)=> {
     this.setState({
       m: this.state.m.concat(nouveuFilm)
     })  
 }
+/* function pour add to favorit */
 adFav = (el) => {
     let index = this.f.indexOf(el);
     if(index == -1) {
@@ -132,11 +133,9 @@ adFav = (el) => {
     }
     else if(index > -1){
       return this.f.splice(index, 1);
-    }
-    
-       
+    }     
 };
-  
+ /* fucntion pour le filtrage par etoile */
 getRate = (el) => {
     this.setState(
       {star: parseInt(el)}
@@ -146,6 +145,7 @@ getRate = (el) => {
     )
    
 }
+/* function reset  */
 resetRate = () => {
       this.setState(
         {star: null}

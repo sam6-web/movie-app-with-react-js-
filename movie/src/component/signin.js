@@ -28,10 +28,10 @@ class Signin extends Component {
         this.state.inputPassword == localStorage.getItem("password")
       )
       {
-        alert("Bienvenue dans Pipoca");
+        alert("Bienvenue dans ma box movie");
       }
       else {
-        alert("Oups!Veuillez vérifier votre mot de passe et votre adresse mail");
+        alert("Oups!Veuillez vérifier votre mot  passe ou votre adresse mail");
       }
     }
     
