@@ -82,3 +82,17 @@ h3{
   justify-content: center;
   border: solid white;
 }
+.btn_rate{
+  
+  
+  background-color:black;
+  border: solid black;
+  border-radius: 50%;
+  
+}
+.rest{
+  background-color: white;
+}
+.rest :hover{
+  background-color: red;
+}

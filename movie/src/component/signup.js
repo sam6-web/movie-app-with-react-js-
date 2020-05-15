@@ -3,10 +3,10 @@ import React, { Component } from 'react'
  class Signup extends Component {
     constructor(props){
         super(props)
-        this.state= {
-        name:"",
-        password:"",
-        email:"",
+        this.state={
+        name: "",
+        password: "",
+        email : "",
         }
       }
 
@@ -35,9 +35,9 @@ import React, { Component } from 'react'
         localStorage.setItem("email",this.state.email)
         
     }
-    
-    log =(e)=>{
-       alert("votre donner a eter bien enregister") 
+    log =()=>{
+     
+        alert("votre donner a eter bien enregister")
     }
 
     

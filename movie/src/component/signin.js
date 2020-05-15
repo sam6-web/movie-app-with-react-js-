@@ -19,14 +19,23 @@ class Signin extends Component {
       inputPassword:e.target.value
     })
   }
-  clickSignUp = () =>{
-    if(localStorage.getItem("password")===this.state.inputPassword){
-      return alert('true')
+  
+    
+  
+  clickSignUp= () => {
+      if (
+        this.state.inputEmail  == localStorage.getItem("email") &&
+        this.state.inputPassword == localStorage.getItem("password")
+      )
+      {
+        alert("Bienvenue dans Pipoca");
+      }
+      else {
+        alert("Oups!Veuillez vérifier votre mot de passe et votre adresse mail");
+      }
     }
-    else{
-      return alert("false")
-    }
-  }
+    
+
   
 
 

@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+/* import React, { Component } from 'react'
  class PosterFilm extends Component {
 
     render() {
@@ -10,6 +10,7 @@ import React, { Component } from 'react'
         
         <div className="lesFilms">
             {az.map((el)=>(
+        
            
             <div className="posterFilm ">
                 <div className="filmPicture">
@@ -22,7 +23,7 @@ import React, { Component } from 'react'
                     <span> {el.etoile} </span>
                 </div>
                 
-                <button className="aj" onClick={(el)} >ajouter aux favorit</button>                
+                <button className="aj" onClick={add} >ajouter aux favorit</button>                
             </div>
             ))} 
         </div> 
@@ -30,6 +31,6 @@ import React, { Component } from 'react'
     }
 }
 
-export default PosterFilm
+export default PosterFilm */
 
 
